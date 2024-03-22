@@ -29,6 +29,7 @@ const Aboutlook = () => {
                   src="/images/product-1.jpg"
                   width="700"
                   height="700"
+                  alt="Image"
                   className="w-[240px] h-[320px]"
                 />
                 <div
@@ -62,6 +63,7 @@ const Aboutlook = () => {
                   src="/images/product-2.jpg"
                   width="700"
                   height="700"
+                  alt="Image"
                   className="w-[240px] h-[320px]"
                 />
                 <div
@@ -96,6 +98,7 @@ const Aboutlook = () => {
             src={"/images/banner-product-1.jpg"}
             width="700"
             height="700"
+            alt="Image"
             className="w-[521px]
           h-[521px]"
           />

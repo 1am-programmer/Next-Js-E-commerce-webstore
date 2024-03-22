@@ -20,6 +20,7 @@ const Productbody = () => {
                   src="/images/carrt-1.jpg"
                   width="700"
                   height="700"
+                  alt="Image"
                   className="w-[240px] h-full"
                 />
               </div>
@@ -62,12 +63,14 @@ const Productbody = () => {
                   src={"/images/001.jpg"}
                   width="700"
                   height="700"
+                  alt="Image"
                   className="h-[40px] w-[40px]"
                 />
                 <Image
                   src={"/images/002.jpg"}
                   width="700"
                   height="700"
+                  alt="Image"
                   className="h-[40px] w-[40px]"
                 />
 
@@ -75,6 +78,7 @@ const Productbody = () => {
                   src={"/images/003.jpg"}
                   width="700"
                   height="700"
+                  alt="Image"
                   className="h-[40px] w-[40px]"
                 />
               </div>
@@ -88,6 +92,7 @@ const Productbody = () => {
                   src="/images/carrt-2.jpg"
                   width="700"
                   height="700"
+                  alt="Image"
                   className="w-[240px] h-full"
                 />
               </div>
@@ -135,6 +140,7 @@ const Productbody = () => {
                   src="/images/carrt-3.jpg"
                   width="700"
                   height="700"
+                  alt="Image"
                   className="w-[240px] h-full"
                 />
               </div>
@@ -177,12 +183,14 @@ const Productbody = () => {
                   src={"/images/004.jpg"}
                   width="700"
                   height="700"
+                  alt="Image"
                   className="h-[40px] w-[40px]"
                 />
                 <Image
                   src={"/images/005.jpg"}
                   width="700"
                   height="700"
+                  alt="Image"
                   className="h-[40px] w-[40px]"
                 />
 
@@ -190,6 +198,7 @@ const Productbody = () => {
                   src={"/images/006.jpg"}
                   width="700"
                   height="700"
+                  alt="Image"
                   className="h-[40px] w-[40px]"
                 />
               </div>
@@ -203,6 +212,7 @@ const Productbody = () => {
                   src="/images/carrt-4.jpg"
                   width="700"
                   height="700"
+                  alt="Image"
                   className="w-[240px] h-full object-cover"
                 />
               </div>

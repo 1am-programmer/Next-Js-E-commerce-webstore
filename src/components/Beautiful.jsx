@@ -29,6 +29,7 @@ const Beautiful = () => {
                     src="/images/product-7.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[240px] h-[320px]"
                   />
                   <div
@@ -62,6 +63,7 @@ const Beautiful = () => {
                     src="/images/product-6.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[240px] h-[320px]"
                   />
                   <div
@@ -94,6 +96,7 @@ const Beautiful = () => {
                     src="/images/product-5.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[240px] h-[320px]"
                   />
                   <div
@@ -130,6 +133,7 @@ const Beautiful = () => {
               src={"/images/banner-product-3.jpg"}
               width="700"
               height="700"
+              alt="Image"
               className="w-[521px]
           h-[521px]"
             />

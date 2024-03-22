@@ -18,6 +18,7 @@ const Footer = () => {
             src={"/images/logo-footer.png"}
             width="700"
             height="700"
+            alt="Image"
             className="h-[30px] w-[110px] mb-3"
           />
           <p className="mb-4 text-gray-600">
@@ -35,6 +36,7 @@ const Footer = () => {
                 src={"/images/payments-visa.png"}
                 width="700"
                 height="700"
+                alt="Image"
                 className="h-[20px] w-[280px] mb-3"
               />
             </div>

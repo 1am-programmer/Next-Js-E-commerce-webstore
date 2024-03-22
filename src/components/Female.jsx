@@ -16,6 +16,7 @@ const Female = () => {
             src={"/images/banner-product-2.jpg"}
             width="700"
             height="700"
+            alt="Image"
             className="w-[521px]
           h-[521px]"
           />
@@ -53,6 +54,7 @@ const Female = () => {
                   src="/images/product-3.jpg"
                   width="700"
                   height="700"
+                  alt="Image"
                   className="w-[240px] h-[320px]"
                 />
                 <div
@@ -85,6 +87,7 @@ const Female = () => {
                   src="/images/product-44.jpg"
                   width="700"
                   height="700"
+                  alt="Image"
                   className="w-[240px] h-[320px]"
                 />
                 <div
@@ -120,6 +123,7 @@ const Female = () => {
                   src="/images/product-5.jpg"
                   width="700"
                   height="700"
+                  alt="Image"
                   className="w-[240px] h-[320px]"
                 />
                 <div

@@ -17,6 +17,7 @@ const From = () => {
                 src={"/images/product-11.jpg"}
                 width="700"
                 height="700"
+                alt="Image"
                 className="w-[290px] h-[250px] mb-4"
               />
               <div>
@@ -36,6 +37,7 @@ const From = () => {
                 src={"/images/product-12.jpg"}
                 width="700"
                 height="700"
+                alt="Image"
                 className="w-[290px] h-[250px] mb-4"
               />
               <div>
@@ -55,6 +57,7 @@ const From = () => {
                 src={"/images/product-13.jpg"}
                 width="700"
                 height="700"
+                alt="Image"
                 className="w-[290px] h-[250px] mb-4"
               />
               <div>
@@ -74,6 +77,7 @@ const From = () => {
                 src={"/images/product-14.jpg"}
                 width="700"
                 height="700"
+                alt="Image"
                 className="w-[290px] h-[250px] mb-4"
               />
               <div>

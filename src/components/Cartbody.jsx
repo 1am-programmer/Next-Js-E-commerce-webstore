@@ -57,6 +57,7 @@ const Cartbody = () => {
                           src={item.image}
                           width="700"
                           height="700"
+                          alt="Image"
                           className="w-[50px] h-[50px]"
                         />
                       </TableCell>

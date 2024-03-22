@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+
 import { FaPlayCircle } from "react-icons/fa";
 const Video = () => {
   return (

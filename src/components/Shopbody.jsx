@@ -131,6 +131,7 @@ const Shopbody = () => {
               src="/images/shopflex.jpg"
               width="700"
               height="700"
+              alt="Image"
               className="w-[250px] h-[245px]"
             />
             <div id="TEXT" className="max-w-[500px]">
@@ -149,6 +150,7 @@ const Shopbody = () => {
                     src="/images/small-1.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[40px] h-[40px]"
                   />
                 </button>
@@ -158,6 +160,7 @@ const Shopbody = () => {
                     src="/images/small-2.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[40px] h-[40px]"
                   />
                 </button>
@@ -167,6 +170,7 @@ const Shopbody = () => {
                     src="/images/small-3.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[40px] h-[40px]"
                   />
                 </button>
@@ -206,6 +210,7 @@ const Shopbody = () => {
               src="/images/shopflex-1.jpg"
               width="700"
               height="700"
+              alt="Image"
               className="w-[250px] h-[245px]"
             />
             <div id="TEXT" className="max-w-[500px]">
@@ -224,6 +229,7 @@ const Shopbody = () => {
                     src="/images/small-4.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[40px] h-[40px]"
                   />
                 </button>
@@ -233,6 +239,7 @@ const Shopbody = () => {
                     src="/images/small-5.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[40px] h-[40px]"
                   />
                 </button>
@@ -272,6 +279,7 @@ const Shopbody = () => {
               src="/images/shopflex-2.jpg"
               width="700"
               height="700"
+              alt="Image"
               className="w-[250px] h-[245px]"
             />
             <div id="TEXT" className="max-w-[500px]">
@@ -321,6 +329,7 @@ const Shopbody = () => {
               src="/images/shopflex-3.jpg"
               width="700"
               height="700"
+              alt="Image"
               className="w-[250px] h-[245px]"
             />
             <div id="TEXT" className="max-w-[500px]">
@@ -367,6 +376,7 @@ const Shopbody = () => {
               src="/images/shopflex-4.jpg"
               width="700"
               height="700"
+              alt="Image"
               className="w-[250px] h-[245px]"
             />
             <div id="TEXT" className="max-w-[500px]">
@@ -385,6 +395,7 @@ const Shopbody = () => {
                     src="/images/small-6.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[40px] h-[40px]"
                   />
                 </button>
@@ -394,6 +405,7 @@ const Shopbody = () => {
                     src="/images/small-7.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[40px] h-[40px]"
                   />
                 </button>
@@ -433,6 +445,7 @@ const Shopbody = () => {
               src="/images/shopflex-5.jpg"
               width="700"
               height="700"
+              alt="Image"
               className="w-[250px] h-[245px]"
             />
             <div id="TEXT" className="max-w-[500px]">
@@ -451,6 +464,7 @@ const Shopbody = () => {
                     src="/images/small-8.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[40px] h-[40px]"
                   />
                 </button>
@@ -460,6 +474,7 @@ const Shopbody = () => {
                     src="/images/small-9.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[40px] h-[40px]"
                   />
                 </button>
@@ -469,6 +484,7 @@ const Shopbody = () => {
                     src="/images/small-10.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[40px] h-[40px]"
                   />
                 </button>

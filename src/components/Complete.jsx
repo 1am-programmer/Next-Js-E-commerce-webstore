@@ -17,6 +17,7 @@ const Complete = () => {
               src={"/images/banner-pr0duct-4.jpg"}
               width="700"
               height="700"
+              alt="Image"
               className="w-[521px]
           h-[521px]"
             />
@@ -52,6 +53,7 @@ const Complete = () => {
                     src="/images/product-8.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[240px] h-[320px]"
                   />
                   <div
@@ -86,6 +88,7 @@ const Complete = () => {
                     src="/images/product-9.jpg"
                     width="700"
                     height="700"
+                    alt="Image"
                     className="w-[240px] h-[320px]"
                   />
                   <div
