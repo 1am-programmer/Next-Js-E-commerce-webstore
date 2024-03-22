@@ -18,7 +18,7 @@ const page = () => {
           <p className="text-[#c96]">Clean All</p>
         </div>
         <p className="text-gray-400">
-          Showing <span className="text-black"> 9 0f 56 </span> Products
+          Showing <span className="text-black"> 9 of 56 </span> Products
         </p>
         <div className="flex items-center gap-2">
           <p>Sort by:</p>
