@@ -1,4 +1,4 @@
-import Cartbody from "@/components/cartbody";
+import Cartbody from "../../components/Cartbody";
 import React from "react";
 
 const page = () => {
