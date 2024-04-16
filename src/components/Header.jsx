@@ -60,6 +60,12 @@ const Header = () => {
           <Link href="/cart" className="text-[#c96]">
             CART
           </Link>
+          <Link href="/auth" className="text-[#c96]">
+            LOGIN
+          </Link>
+          <Link href="/admin" className="text-[#c96]">
+            ADMIN
+          </Link>
         </div>
 
         <div className="flex items-center ">
