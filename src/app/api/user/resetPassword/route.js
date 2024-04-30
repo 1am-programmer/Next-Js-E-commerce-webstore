@@ -10,6 +10,10 @@ export async function PUT(request) {
   await dbConnect();
 
   try {
+    const userExist = await User.findOne({ email });
+
+    if (userExist) return Response.json({ msg: "Email already exist" });
+
     const salt = bcrypt.genSaltSync(10);
 
     const hashPassword = bcrypt.hashSync(newPassword, salt);
