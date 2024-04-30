@@ -11,7 +11,6 @@ export async function PUT(request) {
 
   try {
     const userExist = await User.findOne({ email });
-
     if (userExist) return Response.json({ msg: "Email already exist" });
 
     const salt = bcrypt.genSaltSync(10);

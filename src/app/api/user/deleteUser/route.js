@@ -8,6 +8,9 @@ export async function DELETE(request) {
   await dbConnect();
 
   try {
+    const userExist = await User.findOne({ email });
+    if (userExist) return Response.json({ msg: "Email already exist" });
+
     await User.findOneAndDelete({ email });
 
     return Response.json({ message: "User deleted" });
