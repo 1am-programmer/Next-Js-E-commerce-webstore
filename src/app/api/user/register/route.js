@@ -1,10 +1,8 @@
 import bcrypt from "bcryptjs";
-
 import User from "@/schemas/user";
-
 import dbConnect from "@/lib/db";
 
-//  a function with the rest method (POST || GET || DELETE || PUT)
+//a function with the rest method (POST || GET || DELETE || PUT)
 export async function POST(request) {
   // get what is sent from the client
   const { email, password } = await request.json();
@@ -18,17 +16,17 @@ export async function POST(request) {
 
     if (userExist) return Response.json({ msg: "Email already exist" });
 
+    //For encrypting the password
     const salt = bcrypt.genSaltSync(10);
-
     const hashPassword = bcrypt.hashSync(password, salt);
 
     // create an instance of the user model
     const user = new User({
-      email, //the email gotten from the body/client
+      email, //the email gotten from the body/client which is email: email
       password: hashPassword, // the hashed password,
     });
 
-    //To save this user template to the Dan folder in the database
+    //To save this user template to the dan folder in the database
     await user.save();
 
     // return the created user as a response back to the client
@@ -36,6 +34,5 @@ export async function POST(request) {
   } catch (error) {
     return Response.json(error);
   }
-
   // return the response from the api
 }

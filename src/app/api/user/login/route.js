@@ -15,18 +15,18 @@ export async function POST(request) {
     // check the user collection to see if a user already have the email address
     const user = await User.findOne({ email });
 
-    // check if password tallies with what is in the db
+    // check if email and password tallies with what is in the db
+    const passwordCorrect = user && bcrypt.compareSync(pass, user.password);
 
-    const passwordCorrect = bcrypt.compareSync(pass, user.password);
+    if (user && passwordCorrect) {
+      //Don't display the password while returning the user info
+      const { password, ...others } = user._doc;
 
-    // return if password does not match
-    if (!passwordCorrect) return Response.json({ msg: "Incorrect details" });
-
-    // return the created user as a response back to the client
-
-    const { password, ...others } = user._doc;
-
-    return Response.json({ message: others });
+      // return the created user as a response back to the client
+      return Response.json({ message: others });
+    }
+    // return if password or email does not match
+    return Response.json({ msg: "Invalid email or password" });
   } catch (error) {
     return Response.json(error);
   }

@@ -14,13 +14,12 @@ export async function PUT(request) {
     if (userExist) return Response.json({ msg: "Email already exist" });
 
     const salt = bcrypt.genSaltSync(10);
-
     const hashPassword = bcrypt.hashSync(newPassword, salt);
 
     const user = await User.findOneAndUpdate(
-      { email },
-      { $set: { password: hashPassword } },
-      { new: true }
+      { email }, //Email
+      { $set: { password: hashPassword } }, //New password, and hash it
+      { new: true } //To store the new details
     );
 
     return Response.json({ user });
