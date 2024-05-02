@@ -5,7 +5,7 @@ import dbConnect from "@/lib/db";
 //a function with the rest method (POST || GET || DELETE || PUT)
 export async function POST(request) {
   // get what is sent from the client
-  const { email, password } = await request.json();
+  const { email, password, isAdmin } = await request.json();
 
   //To connect to the database
   await dbConnect();
@@ -24,6 +24,7 @@ export async function POST(request) {
     const user = new User({
       email, //the email gotten from the body/client which is email: email
       password: hashPassword, // the hashed password,
+      isAdmin, // the isAdmin gotten from the body/client which is isAdmin: isAdmin
     });
 
     //To save this user template to the dan folder in the database
